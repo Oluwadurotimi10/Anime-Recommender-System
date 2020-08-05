@@ -1,38 +1,129 @@
-.App {
+body {
+  margin:0;
+  background-image: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% );
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.decades{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{
+  display:inline;
+  margin-left:66em;
+  font-family: 'Lato', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBar {
+  background-color:rgba(0,40,60,1);
+  color:silver;
+  font-family: 'Lato', sans-serif;
+  
+}
+.starting-txt{
+  margin: 0 auto;
+  width:100%;
+  height:1200px;
+  color:white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-one{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  font-family: 'Lato', sans-serif;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  height: 500px;
+  left: 15%;
+  right: 20%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: linear-gradient( 111.1deg,  rgba(0,40,70,1) -4.8%, rgba(255,115,115,1) 82.7%, rgba(255,175,123,1) 97.2% );
 }
 
-.App-link {
-  color: #61dafb;
+.overlay {
+  position: fixed; 
+  overflow: auto; 
+  width: 110%; 
+  height: 70%; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  z-index: 999; 
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  border-radius: 0.25rem;
+  width: 50vw;
+  padding: 2rem;
+  position: relative;
 }
+
+.card{
+  width:300px;
+}
+
+.card-text {
+  position:relative;
+  text-align:left;
+}
+
+.card-pic{
+  border: maroon 2px solid;
+  height: 200px;
+  width: 100%; 
+  display: block;
+}
+
+.nav-right{
+  margin: 20px;
+}
+
+.container-one{
+display:flex;
+justify-content:space-around;
+align-items:center;
+font-family: 'Lato', sans-serif;
+}
+
+
+.my-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.my-ul-popup{
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.my-li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+  color: black;
+}
+ 
+.my-li:last-child {
+  border: none;
+}
+ 
+
